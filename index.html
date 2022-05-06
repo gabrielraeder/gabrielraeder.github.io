@@ -3,7 +3,34 @@
     <head>
         <meta charset="UTF-8">
         <title>Gabriel Gonçalves</title>
+    <style>
+        body {
+            background-color: #BFBDC1;
+            text-align: center;
+        }
+        .me {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #habilidade {
+            line-height: 40px;
+        }
+        #trybe {
+            text-decoration: underline;
+            text-decoration-color: #DE9E36;
+            text-decoration-style: wavy;
+            font-weight: bolder;
+            font-size: 18px;
+        }
+        .old {
+            text-decoration: line-through;
+            text-decoration-color: #6D6A75;
+        }
+        
+
+
+    </style>
     </head>
+    
     <body>
         <h1>Portfólio WEB</h1>
         <ul>
@@ -12,20 +39,21 @@
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#habilidades">Habildades</a></li>
             <li><a href="https://www.linkedin.com/in/gabrielraedergoncalves/" target="_blank">Linkedin</a></li>
+            <li><a href="https://github.com/gabrielraeder" target="_blank">GitHub</a></li>
         </ul>
         <hr>
         <hr>
         <img src="profile.png" width="150px" id="foto" alt="Foto de Gabriel">
-        <h2>Gabriel Raeder Gonçalves</h2>
+        <h2 class="me">Gabriel Raeder Gonçalves</h2>
         <hr>
-        <h4>Sobre:</h4>
-        <p id="sobre"> Nascido em 30 de maio de 1991, Sou natural da cidade do Rio de Janeiro, Brasil. Moro desde 1998 em Curitiba, no Paraná <br> Gastronomo de formação, tenho vasta experiencia com liderança em ambientes de restaurantes, <br> tendo liderado equipes em estabelecimentos de terceiros assim como por alguns anos no meu próprio negócio.</p>
+        <h4 class="me">Sobre:</h4>
+        <p id="sobre" class="me"> Nascido em <em style="font-weight:bolder; text-decoration: underline;">30 de maio de 1991</em>, sou natural da cidade do Rio de Janeiro, Brasil. Moro desde 1998 em Curitiba, no Paraná <br> Gastronomo de formação, tenho vasta experiencia com liderança em ambientes de restaurantes, <br> tendo liderado equipes em estabelecimentos de terceiros assim como por alguns anos no meu próprio negócio.</p>
         <hr>
         <h4 id="habilidades">Habilidades:</h4>
-        <ul>
-            <li>Graduação em Gastronomia</li>
-            <li>Pós-graduação em Gerenciamento Empresarial</li>
-            <li><strong>Cursando Desenvolvimento Web Full-stack <em>TRYBE</em></strong></li>
+        <ul id="habilidade">
+            <li class="old">Graduação em Gastronomia</li>
+            <li class="old">Pós-graduação em Gerenciamento Empresarial</li>
+            <li id="trybe">Cursando Desenvolvimento Web Full-stack <em>TRYBE</em></li>
         </ul>
 
 
