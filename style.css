@@ -1,0 +1,78 @@
+body {
+    background-color: #BFBDC1;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    margin: 0;
+}
+ 
+#habilidade {
+    line-height: 40px;
+}
+#trybe {
+    text-decoration: underline;
+    text-decoration-color: #DE9E36;
+    text-decoration-style: wavy;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.old {
+    text-decoration: line-through;
+    text-decoration-color: #6D6A75;
+}
+
+
+.about {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.me-block {
+    margin: auto;
+    display: inline-block;
+    width: 30%;
+    
+}
+
+.name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    color: rgb(187, 187, 187);
+}
+
+.me-block img {
+    border-radius: 20%;
+    padding: 20px 20px;
+    background-color: rgba(82, 79, 79, 0.226);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1012305950/thumb/1.jpg);
+    background-size: cover;
+    height: 1000px;
+    
+}
+
+.head-content {
+    display: inline-block;
+    height: 500px;
+    width: 35%;
+    margin-top: 200px;
+}
+.head-content a {
+    background-color: #363636;
+    font-size: large;
+    font-weight: 300;
+    line-height: 45px;
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 4px;
+    transition: background-color 200ms ease;
+    display: block;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}

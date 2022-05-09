@@ -5,63 +5,33 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
         <title>Gabriel Gonçalves</title>
-    <style>
-        body {
-            background-color: #BFBDC1;
-            text-align: center;
-            font-family: 'Merriweather', serif;
-            font-size: 20px;
-        }
-        .me {
-            font-family: 'Courier New', Courier, monospace;
-        }
-        #habilidade {
-            line-height: 40px;
-        }
-        #trybe {
-            text-decoration: underline;
-            text-decoration-color: #DE9E36;
-            text-decoration-style: wavy;
-            font-weight: bolder;
-            font-size: 18px;
-        }
-        .old {
-            text-decoration: line-through;
-            text-decoration-color: #6D6A75;
-        }
-        .button {
-            background-color: #363636;
-            font-size: large;
-            font-weight: 300;
-            line-height: 45px;
-            color: rgb(187, 187, 187);
-            text-decoration: none;
-            padding: 7px 15px;
-            border-radius: 4px;
-            transition: background-color 200ms ease;
-        }
-        
-    </style>
     </head>
     
     <body>
-        <h1>Portfólio WEB</h1>
+        <div class="header">
+            <div class="head-content">    
+                <h1 class="name">Gabriel Raeder Gonçalves</h1></div>
+                <div class="head-content">  
+                    <a href="#sobre" class="button">Sobre</a>
+                    <a href="#habilidades" class="button">Habildades</a>
+                    <a href="https://www.linkedin.com/in/gabrielraedergoncalves/" target="_blank" class="button">Linkedin</a>
+                    <a href="https://github.com/gabrielraeder" target="_blank" class="button">GitHub</a>
+            </div>
+        </div>
         
-            <a href="#nome" class="button">Nome</a>
-            <a href="#foto" class="button">Foto</a>
-            <a href="#sobre" class="button">Sobre</a>
-            <a href="#habilidades" class="button">Habildades</a><br>
-            <a href="https://www.linkedin.com/in/gabrielraedergoncalves/" target="_blank" class="button">Linkedin</a>
-            <a href="https://github.com/gabrielraeder" target="_blank" class="button">GitHub</a>
-        
         <hr>
         <hr>
-        <img src="profile.png" width="175px" id="foto" alt="Foto de Gabriel" style="border-radius: 45%;">
-        <h2 class="me">Gabriel Raeder Gonçalves</h2>
-        <hr>
-        <h4 class="me">Sobre:</h4>
-        <p id="sobre" class="me"> Nascido em <em style="font-weight:bolder; text-decoration: underline;">30 de maio de 1991</em>, sou natural da cidade do Rio de Janeiro, Brasil. Moro desde 1998 em Curitiba, no Paraná.</div> <br> Gastronomo de formação, tenho vasta experiencia com liderança em ambientes de restaurantes, <br> tendo liderado equipes em estabelecimentos de terceiros assim como por alguns anos no meu próprio negócio.</p>
+        <div class="about">
+           
+            <div class="me-block"><img src="profile.png" width="350px" id="foto" alt="Foto de Gabriel";"></div>
+            
+            <div class="me-block"><h4>Sobre:</h4>
+            <p id="sobre" class="me"> Nascido em <em style="font-weight:bolder; text-decoration: underline;">30 de maio de 1991</em>, sou natural da cidade do Rio de Janeiro, Brasil. Moro desde 1998 em Curitiba, no Paraná. <br> Gastronomo de formação, tenho vasta experiencia com liderança em ambientes de restaurantes, <br> tendo liderado equipes em estabelecimentos de terceiros assim como por alguns anos no meu próprio negócio.</p>
+            </div>
+        </div>
+
         <hr>
         <h4 id="habilidades">Habilidades:</h4>
         <ul id="habilidade">
